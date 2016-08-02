@@ -1,5 +1,16 @@
 
+@import url(https://fonts.googleapis.com/css?family=Fredoka+One);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600);
+@import 'https://fonts.googleapis.com/css?family=Anton';
 
+body{
+  overflow-x: hidden;
+}
+hr{
+  border-top: 2px solid red;
+  width: 80%;
+}
+/*start nav*/
 .navbar-brand {
   padding: 0px;
 }
@@ -14,16 +25,80 @@
 }
 .navbar-nav{
   float: right;
-  padding-top: 27px;
+  padding-top: 21px;
 }
 
 .navbar-default .navbar-nav>li>a{
   color: white;
+  font-family: 'Fredoka One', cursive;
+  font-size: 154%;
+  padding: 21px 59px;
 }
 .no_hover:hover{
   color: white !important;
 }
 .no_hover{
   padding:15px 0 !important;
-
 }
+
+
+@media (max-width: 1550px){
+  .navbar-nav>li>a {
+    padding: 21px 28px !important;
+  }
+}
+@media (max-width: 1250px){
+  .navbar-nav>li>a {
+    padding: 21px 16px !important;
+  }
+}
+@media (max-width: 1121px){
+  .navbar-nav>li>a {
+    padding: 21px 16px !important;
+    font-size: 136% !important;
+  }
+}
+/*end navigation*/
+
+h1{
+  color: red;
+  text-align: center;
+  font-family: 'Anton', sans-serif;
+  font-weight: 700;
+  font-size: 70px;
+  margin-top: 58px;
+}
+h2{
+  font-family:'Open Sans', sans-serif;
+  font-size: 45px;
+  color: red;
+  margin-bottom: 30px;
+}
+p{
+  font-size: 20px;
+}
+.right{
+  padding-top: 64px;
+}
+.left{
+  padding-left: 135px;
+}
+/*pho section*/
+.pho{
+  text-align: right;
+  padding-top: 80px;
+  margin-bottom: 18px;
+}
+/*end pho*/
+
+/*start appetizer*/
+
+.appetizer-items{
+  text-align: right;
+}
+
+.appetizer img{
+  width: 188%;
+}
+
+/*end appetizer*/
