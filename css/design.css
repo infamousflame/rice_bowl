@@ -79,10 +79,15 @@ p{
 }
 .right{
   padding-top: 64px;
+  text-align: right;
 }
 .left{
   padding-left: 135px;
 }
+section{
+  margin-bottom: 25px;
+}
+
 /*pho section*/
 .pho{
   text-align: right;
