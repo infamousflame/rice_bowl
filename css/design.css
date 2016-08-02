@@ -1,0 +1,19 @@
+.red{
+  background-color: #e4000a;
+  height: 152px;
+}
+
+nav ul{
+  float: right;
+  padding-top:65px;
+}
+nav ul li{
+  display: inline;
+}
+nav ul li a{
+  color: white;
+}
+
+nav .col-md-2{
+  padding: 0;
+}
