@@ -1,19 +1,29 @@
-.red{
-  background-color: #e4000a;
-  height: 152px;
+
+
+.navbar-brand {
+  padding: 0px;
+}
+.navbar-brand>img {
+    height: 216%;
+    width: auto;
+}
+.navbar-default{
+    background-color: #e4000a;
+    height: 108px;
+    border: 0;
+}
+.navbar-nav{
+  float: right;
+  padding-top: 27px;
 }
 
-nav ul{
-  float: right;
-  padding-top:65px;
-}
-nav ul li{
-  display: inline;
-}
-nav ul li a{
+.navbar-default .navbar-nav>li>a{
   color: white;
 }
+.no_hover:hover{
+  color: white !important;
+}
+.no_hover{
+  padding:15px 0 !important;
 
-nav .col-md-2{
-  padding: 0;
 }
