@@ -3,13 +3,6 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600);
 @import 'https://fonts.googleapis.com/css?family=Anton';
 
-body{
-  overflow-x: hidden;
-}
-hr{
-  border-top: 2px solid red;
-  width: 80%;
-}
 /*start nav*/
 .navbar-brand {
   padding: 0px;
@@ -59,56 +52,3 @@ hr{
   }
 }
 /*end navigation*/
-
-h1{
-  color: red;
-  text-align: center;
-  font-family: 'Anton', sans-serif;
-  font-weight: 700;
-  font-size: 70px;
-  margin-top: 58px;
-}
-h2{
-  font-family:'Open Sans', sans-serif;
-  font-size: 45px;
-  color: red;
-  margin-bottom: 30px;
-}
-p{
-  font-size: 20px;
-}
-.right{
-  padding-top: 64px;
-  text-align: right;
-}
-.left{
-  padding-left: 135px;
-}
-section{
-  margin-bottom: 25px;
-}
-
-.col-md-9{
-  padding-left: 277px;
-  padding-top: 41px;
-}
-/*pho section*/
-.pho{
-  padding-top: 80px;
-  margin-bottom: 18px;
-}
-/*end pho*/
-
-/*start appetizer*/
-
-.appetizer-items{
-  text-align: right;
-}
-
-.appetizer img{
-  width: 188%;
-}
-.soup_img{
-  margin-top: 158px;
-}
-/*end appetizer*/
