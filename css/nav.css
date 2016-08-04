@@ -23,8 +23,8 @@
 
 .navbar-default .navbar-nav>li>a{
   color: white;
-  font-family: 'Fredoka One', cursive;
-  font-size: 154%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 127%;
   padding: 21px 59px;
 }
 .no_hover:hover{
