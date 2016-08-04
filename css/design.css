@@ -88,9 +88,12 @@ section{
   margin-bottom: 25px;
 }
 
+.col-md-9{
+  padding-left: 277px;
+  padding-top: 41px;
+}
 /*pho section*/
 .pho{
-  text-align: right;
   padding-top: 80px;
   margin-bottom: 18px;
 }
